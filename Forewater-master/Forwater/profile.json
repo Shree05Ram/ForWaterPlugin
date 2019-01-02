@@ -1,0 +1,25 @@
+{
+    "active_profile": "forwater",
+    "available_profiles": {
+        "forwater": {
+            "accepted_extensions": [
+                ".ecar",
+                ".json"
+            ],
+            "cdn_scripts_dir": "/opt/opencdn/CDN/",
+            "cdn_url": "http://www.openrap.com",
+            "config_json_dir": "/home/admin/forwater/config_json/",
+            "config_json_name": "config.json",
+            "content_root": "/home/admin/forwater/ecar_files/",
+            "json_dir": "/home/admin/forwater/json_dir/",
+            "media_root": "/home/admin/forwater/",
+            "profile_name": "forwater",
+            "server_root": "/opt/opencdn/devmgmt/file_upload/",
+            "telemetry": "/home/admin/forwater/telemetry/",
+            "unzip_content": "/home/admin/forwater/xcontent/",
+            "unzip_contentdir_name": "xcontent",
+            "usb_dir": "ecar_files",
+            "usb_on_automount": "/media/"
+        }
+    }
+}

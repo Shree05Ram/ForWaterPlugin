@@ -1,0 +1,133 @@
+{
+    "id": "ekstep.genie.content.home",
+    "ver": "1.0",
+    "ts": "2017-06-13T12:05:30+00:00",
+    "params": {
+        "resmsgid": "c3800c567711b10e128d3b1353328a60f6bb5583",
+        "msgid": "ff305d54-85b4-341b-da2f-eb6b9e5460fa",
+        "status": "successful",
+        "err": "",
+        "errmsg": ""
+    },
+    "result": {
+        "response": {
+            "id": "org.ekstep.genie.content.home",
+            "banners": null,
+            "name": null,
+            "sections": [{
+                    "display": {
+                        "name": {
+                            "en": "Best of Genie",
+                            "hn": "लोकप्रिय कहानियां"
+                        }
+                    },
+                    "search": {
+                        "query": "",
+                        "limit": 10,
+                        "sort_by": {
+                            "genieScore": "desc"
+                        },
+                        "filters": {
+                            "ageGroup": [
+                                "5-6"
+                            ],
+                            "contentType": [
+                                "Story",
+                                "Worksheet",
+                                "Game",
+                                "Collection",
+                                "TextBook"
+                            ],
+                            "genieScore": {
+                                "min": 0
+                            },
+                            "objectType": [
+                                "Content"
+                            ],
+                            "status": [
+                                "Live"
+                            ]
+                        },
+                        "facets": [
+                            "contentType",
+                            "domain",
+                            "ageGroup",
+                            "language",
+                            "gradeLevel"
+                        ],
+                        "mode": "soft"
+                    },
+                    "recommend": null,
+                    "contents": [],
+                    "resmsgid": "3007071e-abe1-46aa-bbe3-840e0aa26c5e",
+                    "apiid": "ekstep.composite-search.search",
+                    "filterModifiable": true
+                },
+                {
+                    "display": {
+                        "name": {
+                            "en": "Recommended",
+                            "hn": "सलाह"
+                        }
+                    },
+                    "search": null,
+                    "recommend": {
+                        "context": {
+                            "contentid": "domain_1111",
+                            "did": "5edf49c4-313c-4f57-fd52-9bfe35e3b9v7",
+                            "dlang": "en"
+                        },
+                        "query": "",
+                        "limit": 10,
+                        "sort_by": null,
+                        "filters": null,
+                        "facets": null
+                    },
+                    "contents": [],
+                    "resmsgid": "54d2b48b-7c9f-4974-a942-87ea3be75c6f",
+                    "apiid": "ekstep.analytics.recommendations",
+                    "filterModifiable": false
+                },
+                {
+                    "display": {
+                        "name": {
+                            "en": "Collections",
+                            "hn": "सबसे लोकप्रिय"
+                        }
+                    },
+                    "search": {
+                        "query": "",
+                        "limit": 10,
+                        "sort_by": {
+                            "popularity": "desc"
+                        },
+                        "filters": {
+                            "ageGroup": [
+                                "5-6"
+                            ],
+                            "contentType": [
+                                "Collection"
+                            ],
+                            "objectType": [
+                                "Content"
+                            ],
+                            "status": [
+                                "Live"
+                            ]
+                        },
+                        "facets": [
+                            "contentType",
+                            "domain",
+                            "ageGroup",
+                            "language",
+                            "gradeLevel"
+                        ],
+                        "mode": "soft"
+                    },
+                    "recommend": null,
+                    "contents": []
+                }
+            ]
+        }
+    }
+}
